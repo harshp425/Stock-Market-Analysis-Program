@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 def historical_data(symbol, key):
     
     header = {'User-Agent' : "your user agent"}
-    url = f'https://finance.yahoo.com/quote/TSLA/history?p=TSLA'
+    url = f'https://finance.yahoo.com/quote/{symbol}/history?p={symbol}'
     response = requests.get(url, headers = header)
     soup = BeautifulSoup(response.content, 'html.parser')
 
