@@ -1,2 +1,3 @@
 # Stock-Market-Analysis-Program
-Interactive stock market analysis program which retrieves, analyzes, and displays stock data from Yahoo Finance.
+An interactive python program which uses Beautiful Soup to scrape various types of stock data from Yahoo Finance. The program adopts data structure manipulation to parse and clean the data to make it reportable to the user. Users can input the symbol of any stock and can choose from an extensive list of 14 commands ranging from reporting the live status of the stock, valuation measures, statistics, historical data analysis, current news, stock comparison, and more. Improved the efficiency of gathering stock market data and charts by over 35% as
+compared to traditional means of obtaining this information through manual searches.
